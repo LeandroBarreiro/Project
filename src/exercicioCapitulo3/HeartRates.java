@@ -4,14 +4,13 @@ import java.time.LocalDate;
 import java.time.Period;
 
 public class HeartRates {
-
     private String name;
     private String surname;
     private int day;
     private int month;
     private int year;
 
-    public HeartRates(String name, String surname, int day, int month, int year) {
+    public HeartRates(String name, String surname, int day, int month, int year){
         this.name = name;
         this.surname = surname;
         this.day = day;
@@ -19,25 +18,23 @@ public class HeartRates {
         this.year = year;
     }
 
-    public int maximumHeartRate() {
+    public int  maximumHeartRate(){
         return 220 - ageInYear();
     }
 
-    public String targetHeartRate() {
+    public String calculateTargetHeartRate(){
         int maximum = maximumHeartRate();
-
         int minimum = (int) (maximum * 0.50);
         int max = (int) (maximum * 0.85);
-
-        return minimum + " - " + max;
+        return minimum + " - " + max + " bpm";
     }
 
-    public int ageInYear() { // Cria uma data com a data de nascimento fornecida
-        LocalDate currentDate = LocalDate.now(); // Obtém a data atual
-        LocalDate dateOfBirth = LocalDate.of(year, month, day);
-        return Period.between(dateOfBirth, currentDate).getYears();
-    }
 
+    public int ageInYear(){
+        LocalDate birthDate = LocalDate.of(year, month, day);
+        return Period.between(birthDate, LocalDate.now()).getYears();
+    }
+    
     public String getName() {
         return name;
     }
@@ -78,4 +75,5 @@ public class HeartRates {
         this.year = year;
     }
 
+    
 }

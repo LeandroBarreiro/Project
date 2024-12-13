@@ -3,30 +3,36 @@ package exercicioCapitulo3;
 import java.util.Scanner;
 
 public class HeartRatesTest {
-
+    
     public static void main(String[] args) {
-
-        HeartRates heartRates1 = new HeartRates("", "", 0, 0, 0);
-
+        
         Scanner input = new Scanner(System.in);
 
-        System.out.printf("What is your first name?");
+        HeartRates heartRates1 = new HeartRates(null, null, 0, 0, 0);
+
+        System.out.println("First name: ");
         heartRates1.setName(input.nextLine());
 
-        System.out.printf("\nWhat is your last name?");
+        System.out.println("Last name: ");
         heartRates1.setSurname(input.nextLine());
 
-        System.out.printf("\nWhat day were you born?");
+        System.out.println("Day you were born: ");
         heartRates1.setDay(input.nextInt());
-        System.out.printf("\nWhat month were you born?");
+
+        System.out.println("Month you were born?");
         heartRates1.setMonth(input.nextInt());
-        System.out.printf("\nWhat year were you born?");
+
+        System.out.println("Year you were born?");
         heartRates1.setYear(input.nextInt());
 
-        System.out.println("You are " + heartRates1.ageInYear() + " years old");
+        int age = heartRates1.ageInYear();
+        System.out.println("You are " + age + " year old");
 
-        System.out.println("Your maximum frequency range: " + heartRates1.maximumHeartRate());
-        System.out.println("Your target heart rate: " + heartRates1.targetHeartRate());
+        System.out.println("Your maximum heart rate range: " + heartRates1.maximumHeartRate());
+        System.out.println("Your target heart rate is: " + heartRates1.calculateTargetHeartRate());
+
+
+
 
         input.close();
     }

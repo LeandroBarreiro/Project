@@ -1,6 +1,4 @@
-package exercicioCapitulo3;
-
-
+package NameDialog;
 // Obtendo a entrada de usuário a partir de um diálogo.
 import javax.swing.JOptionPane;
 
