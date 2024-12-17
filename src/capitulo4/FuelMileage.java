@@ -37,13 +37,13 @@ public class FuelMileage{
             }
 
             double travelConsumption = (double) kilometers / liters;
-            System.out.printf("Consumption of this trip: %2.f km/L\n", travelConsumption);
+            System.out.printf("Consumption of this trip: %.2f km/L\n", travelConsumption);
 
             totalKilometers += kilometers;
             totalLiters += liters;
 
-            System.out.printf("Total number of kilometers: %d Km", kilometers);
-            System.out.printf("Total liters: %dL", liters);
+            System.out.printf("Total number of kilometers: %d Km\n", kilometers);
+            System.out.printf("Total liters: %dL\n", liters);
         
         }
 
@@ -51,7 +51,5 @@ public class FuelMileage{
             double averageConsumption = (double) totalKilometers / totalLiters;
             System.out.println("The average consumption of this trip is: " + averageConsumption);
         }
-
-
     }
 }
