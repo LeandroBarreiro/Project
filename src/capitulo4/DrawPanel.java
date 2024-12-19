@@ -15,7 +15,7 @@ public class DrawPanel extends  JPanel{
         int width = getWidth();
         int height  = getHeight();
 
-        g.drawLine(0, 0, width, height);
+        g.drawLine(20, 0, width, height);
 
         g.drawLine(0, height, width, 0);
     }

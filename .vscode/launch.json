@@ -1,0 +1,91 @@
+{
+    // Use o IntelliSense para saber mais sobre os atributos possíveis.
+    // Focalizar para exibir as descrições dos atributos existentes.
+    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "SalesCommissionTest",
+            "request": "launch",
+            "mainClass": "capitulo4.SalesCommissionTest",
+            "projectName": "Project_6dd6e1b1"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "AccountTeste",
+            "request": "launch",
+            "mainClass": "AccountTeste",
+            "projectName": "Project_6dd6e1b1"
+        },
+        {
+            "type": "java",
+            "name": "ClientTest",
+            "request": "launch",
+            "mainClass": "capitulo4.ClientTest",
+            "projectName": "Project_6dd6e1b1"
+        },
+        {
+            "type": "java",
+            "name": "DrawPanelTest",
+            "request": "launch",
+            "mainClass": "capitulo4.DrawPanelTest",
+            "projectName": "Project_6dd6e1b1"
+        },
+        {
+            "type": "java",
+            "name": "FuelMileage",
+            "request": "launch",
+            "mainClass": "capitulo4.FuelMileage",
+            "projectName": "Project_6dd6e1b1"
+        },
+        {
+            "type": "java",
+            "name": "DateTest",
+            "request": "launch",
+            "mainClass": "exercicioCapitulo3.DateTest",
+            "projectName": "Project_6dd6e1b1"
+        },
+        {
+            "type": "java",
+            "name": "EmployeeTest",
+            "request": "launch",
+            "mainClass": "exercicioCapitulo3.EmployeeTest",
+            "projectName": "Project_6dd6e1b1"
+        },
+        {
+            "type": "java",
+            "name": "HealthProfileTest",
+            "request": "launch",
+            "mainClass": "exercicioCapitulo3.HealthProfileTest",
+            "projectName": "Project_6dd6e1b1"
+        },
+        {
+            "type": "java",
+            "name": "HeartRatesTest",
+            "request": "launch",
+            "mainClass": "exercicioCapitulo3.HeartRatesTest",
+            "projectName": "Project_6dd6e1b1"
+        },
+        {
+            "type": "java",
+            "name": "InvoiceTest",
+            "request": "launch",
+            "mainClass": "exercicioCapitulo3.InvoiceTest",
+            "projectName": "Project_6dd6e1b1"
+        },
+        {
+            "type": "java",
+            "name": "NameDialog",
+            "request": "launch",
+            "mainClass": "exercicioCapitulo3.NameDialog",
+            "projectName": "Project_6dd6e1b1"
+        }
+    ]
+}
