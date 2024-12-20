@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SalaryCalculator",
+            "request": "launch",
+            "mainClass": "capitulo4.SalaryCalculator",
+            "projectName": "Project_6dd6e1b1"
+        },
+        {
+            "type": "java",
             "name": "SalesCommission",
             "request": "launch",
             "mainClass": "capitulo4.SalesCommission",
