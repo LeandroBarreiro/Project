@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SalesCommission",
+            "request": "launch",
+            "mainClass": "capitulo4.SalesCommission",
+            "projectName": "Project_6dd6e1b1"
+        },
+        {
+            "type": "java",
             "name": "SalesCommissionTest",
             "request": "launch",
             "mainClass": "capitulo4.SalesCommissionTest",
