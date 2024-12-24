@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CryptoTest",
+            "request": "launch",
+            "mainClass": "capitulo4.CryptoTest",
+            "projectName": "Project_6dd6e1b1"
+        },
+        {
+            "type": "java",
             "name": "SalaryCalculator",
             "request": "launch",
             "mainClass": "capitulo4.SalaryCalculator",
